@@ -1,0 +1,16 @@
+node_modules/
+dist/
+.DS_Store
+*.log
+
+# local env
+.env
+.env.*
+
+# editor
+.vscode/
+
+# python (accidental)
+.venv/
+__pycache__/
+
