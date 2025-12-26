@@ -1,0 +1,29 @@
+<svg width="360" height="520" viewBox="0 0 360 520" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="360" y2="520" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#4C1D95"/>
+      <stop offset="1" stop-color="#6D28D9"/>
+    </linearGradient>
+  </defs>
+  <rect width="360" height="520" rx="18" fill="url(#bg)"/>
+  <rect x="28" y="28" width="304" height="464" rx="14" fill="#FFFFFF" fill-opacity="0.08"/>
+
+  <text x="46" y="110" fill="#FFFFFF" font-family="ui-sans-serif, system-ui, -apple-system, Segoe UI, Roboto, Arial" font-size="18" font-weight="500" opacity="0.85">
+    Конечные и бесконечные
+  </text>
+  <text x="46" y="150" fill="#FFFFFF" font-family="ui-sans-serif, system-ui, -apple-system, Segoe UI, Roboto, Arial" font-size="34" font-weight="700">
+    игры
+  </text>
+  <text x="46" y="188" fill="#FFFFFF" font-family="ui-sans-serif, system-ui, -apple-system, Segoe UI, Roboto, Arial" font-size="14" opacity="0.75">
+    заметки и тезисы
+  </text>
+
+  <path d="M84 318C108 266 140 240 180 240C220 240 252 266 276 318" stroke="#FFFFFF" stroke-opacity="0.55" stroke-width="10" stroke-linecap="round"/>
+  <circle cx="148" cy="284" r="16" fill="#FFFFFF" fill-opacity="0.35"/>
+  <circle cx="212" cy="284" r="16" fill="#FFFFFF" fill-opacity="0.35"/>
+
+  <rect x="46" y="380" width="268" height="1" fill="#FFFFFF" fill-opacity="0.25"/>
+  <text x="46" y="420" fill="#FFFFFF" font-family="ui-sans-serif, system-ui, -apple-system, Segoe UI, Roboto, Arial" font-size="14" opacity="0.78">
+    черновик обложки
+  </text>
+</svg>

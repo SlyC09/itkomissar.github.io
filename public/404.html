@@ -1,0 +1,31 @@
+<!doctype html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Redirecting…</title>
+    <script>
+      (function () {
+        var l = window.location;
+        var segments = l.pathname.split("/").filter(Boolean);
+        var hasRepoPrefix = segments.length > 1;
+        var base = hasRepoPrefix ? "/" + segments[0] : "";
+        var path = hasRepoPrefix ? segments.slice(1).join("/") : segments.join("/");
+
+        l.replace(
+          l.protocol +
+            "//" +
+            l.hostname +
+            (l.port ? ":" + l.port : "") +
+            base +
+            "/?/" +
+            path +
+            l.search.replace(/&/g, "~and~") +
+            l.hash
+        );
+      })();
+    </script>
+  </head>
+  <body></body>
+</html>
+

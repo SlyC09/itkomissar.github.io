@@ -1,0 +1,30 @@
+<svg width="360" height="520" viewBox="0 0 360 520" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="360" y2="520" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#166534"/>
+      <stop offset="1" stop-color="#22C55E"/>
+    </linearGradient>
+  </defs>
+  <rect width="360" height="520" rx="18" fill="url(#bg)"/>
+  <rect x="28" y="28" width="304" height="464" rx="14" fill="#FFFFFF" fill-opacity="0.10"/>
+
+  <text x="46" y="106" fill="#FFFFFF" font-family="ui-sans-serif, system-ui, -apple-system, Segoe UI, Roboto, Arial" font-size="16" font-weight="500" opacity="0.85">
+    Жизнь — агент
+  </text>
+  <text x="46" y="146" fill="#FFFFFF" font-family="ui-sans-serif, system-ui, -apple-system, Segoe UI, Roboto, Arial" font-size="28" font-weight="700">
+    создания знания
+  </text>
+  <text x="46" y="184" fill="#FFFFFF" font-family="ui-sans-serif, system-ui, -apple-system, Segoe UI, Roboto, Arial" font-size="14" opacity="0.78">
+    тезисы и заметки
+  </text>
+
+  <rect x="46" y="238" width="268" height="170" rx="14" fill="#FFFFFF" fill-opacity="0.14"/>
+  <path d="M96 360C114 320 142 296 180 296C218 296 246 320 264 360" stroke="#FFFFFF" stroke-opacity="0.55" stroke-width="10" stroke-linecap="round"/>
+  <circle cx="156" cy="330" r="14" fill="#FFFFFF" fill-opacity="0.35"/>
+  <circle cx="204" cy="330" r="14" fill="#FFFFFF" fill-opacity="0.35"/>
+
+  <rect x="46" y="440" width="268" height="1" fill="#FFFFFF" fill-opacity="0.25"/>
+  <text x="46" y="476" fill="#FFFFFF" font-family="ui-sans-serif, system-ui, -apple-system, Segoe UI, Roboto, Arial" font-size="14" opacity="0.78">
+    черновик обложки
+  </text>
+</svg>

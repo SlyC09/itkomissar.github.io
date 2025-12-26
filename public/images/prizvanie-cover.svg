@@ -1,0 +1,31 @@
+<svg width="1200" height="675" viewBox="0 0 1200 675" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1200" y2="675" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#F7F3ED"/>
+      <stop offset="1" stop-color="#EFE6DA"/>
+    </linearGradient>
+    <linearGradient id="accent" x1="220" y1="180" x2="980" y2="500" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#2B2A28" stop-opacity="0.08"/>
+      <stop offset="1" stop-color="#2B2A28" stop-opacity="0.02"/>
+    </linearGradient>
+  </defs>
+
+  <rect width="1200" height="675" rx="32" fill="url(#bg)"/>
+  <rect x="80" y="80" width="1040" height="515" rx="28" fill="white" fill-opacity="0.8"/>
+  <rect x="120" y="140" width="960" height="80" rx="16" fill="url(#accent)"/>
+  <rect x="120" y="250" width="520" height="18" rx="9" fill="#2B2A28" fill-opacity="0.12"/>
+  <rect x="120" y="286" width="700" height="18" rx="9" fill="#2B2A28" fill-opacity="0.10"/>
+  <rect x="120" y="322" width="620" height="18" rx="9" fill="#2B2A28" fill-opacity="0.08"/>
+
+  <circle cx="905" cy="380" r="120" fill="#2B2A28" fill-opacity="0.06"/>
+  <path d="M820 415C852 350 880 320 905 320C930 320 958 350 990 415" stroke="#2B2A28" stroke-opacity="0.18" stroke-width="10" stroke-linecap="round"/>
+  <circle cx="875" cy="365" r="18" fill="#2B2A28" fill-opacity="0.12"/>
+  <circle cx="935" cy="365" r="18" fill="#2B2A28" fill-opacity="0.12"/>
+
+  <text x="120" y="195" fill="#2B2A28" font-family="ui-sans-serif, system-ui, -apple-system, Segoe UI, Roboto, Arial" font-size="34" font-weight="600">
+    Схема: от интереса к привычке
+  </text>
+  <text x="120" y="520" fill="#2B2A28" fill-opacity="0.55" font-family="ui-sans-serif, system-ui, -apple-system, Segoe UI, Roboto, Arial" font-size="20">
+    Это заглушка. Замените на своё фото/схему.
+  </text>
+</svg>
