@@ -1,7 +1,4 @@
 
-  # Блоговый сайт
-
-  This is a code bundle for Блоговый сайт. The original project is available at https://www.figma.com/design/I9Rir3d2lO2ivPRd5pS0Z8/%D0%91%D0%BB%D0%BE%D0%B3%D0%BE%D0%B2%D1%8B%D0%B9-%D1%81%D0%B0%D0%B9%D1%82.
 
   ## Running the code
 
