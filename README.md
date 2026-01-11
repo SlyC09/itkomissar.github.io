@@ -15,18 +15,18 @@ Add a new Markdown file to `src/app/content/posts/` with a frontmatter block at 
 ```md
 ---
 title: Мой пост
-section: razmyshlyayu
+section: thinking
 date: 04 августа
 excerpt: Короткий анонс (опционально)
 ---
 ```
 
 Sections:
-- `razmyshlyayu` (Размышляю)
-- `sozdayu` (Создаю)
-- `chitayu` (Читаю / книги)
-- `motiviruju` (Мотивирую)
-- `principy` (Принципы)
+- `thinking` / `razmyshlyayu` (Размышляю)
+- `creating` / `sozdayu` (Создаю)
+- `reading` / `chitayu` (Читаю / книги)
+- `motivating` / `motiviruju` (Мотивирую)
+- `principles` / `principy` (Принципы)
 
 Books (`section: chitayu`) can also have:
 - `cover: /images/books/....svg`

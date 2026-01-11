@@ -138,15 +138,18 @@ function parseDateKey(date: string): number {
   return monthIndex * 32 + day;
 }
 
-function isPostSection(value: string): value is PostSection {
-  return (
-    value === "razmyshlyayu" ||
-    value === "sozdayu" ||
-    value === "chitayu" ||
-    value === "motiviruju" ||
-    value === "principy"
-  );
-}
+const sectionAliases: Record<string, PostSection> = {
+  razmyshlyayu: "razmyshlyayu",
+  thinking: "razmyshlyayu",
+  sozdayu: "sozdayu",
+  creating: "sozdayu",
+  chitayu: "chitayu",
+  reading: "chitayu",
+  motiviruju: "motiviruju",
+  motivating: "motiviruju",
+  principy: "principy",
+  principles: "principy",
+};
 
 function isRecommendation(value: string): value is Recommendation {
   return value === "рекомендую" || value === "не рекомендую";
@@ -165,17 +168,18 @@ function createPostFromMarkdown(filePath: string, raw: string): BlogPost | null 
   }
 
   const title = frontmatter.title;
-  const section = frontmatter.section;
+  const sectionRaw = frontmatter.section;
   const date = frontmatter.date;
 
-  if (!title || !section || !date) {
+  if (!title || !sectionRaw || !date) {
     throw new Error(
       `Post frontmatter is missing required fields (title, section, date): ${filePath}`
     );
   }
 
-  if (!isPostSection(section)) {
-    throw new Error(`Unknown post section "${section}" in ${filePath}`);
+  const section = sectionAliases[sectionRaw.trim().toLowerCase()];
+  if (!section) {
+    throw new Error(`Unknown post section "${sectionRaw}" in ${filePath}`);
   }
 
   const excerpt = frontmatter.excerpt?.trim() || makeExcerpt(body);
